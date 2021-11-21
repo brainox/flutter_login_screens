@@ -7,13 +7,6 @@ import 'package:twitch_login_screen/parallel_login.dart';
 import 'package:twitch_login_screen/remember_uber.dart';
 import 'package:twitch_login_screen/twitch_login_page.dart';
 import 'package:twitch_login_screen/when_login_is_not_mandatory.dart';
-// import 'easy_peasy.dart';
-// import 'twitch_login_page.dart';
-// import 'login.dart';
-// import 'when_login_is_not_mandatory.dart';
-// import 'dee_login.dart';
-// import 'remember_uber.dart';
-// import 'parallel_login.dart';
 import 'something_funky.dart';
 
 void main() {
@@ -28,14 +21,14 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       builder: () => MaterialApp(
         title: "Login Screens App",
-        home: TwitchLoginPage(),
+        // home: TwitchLoginPage(),
         // home: Login(),
         // home: WhenLoginIsNotMandatory(),
         // home: RememberUber(),
         // home: SomethingFunky(),
         // home: EasyPeasy(),
         // home: DeeLogin(),
-        // home: ParallelLogin(),
+        home: ParallelLogin(),
         debugShowCheckedModeBanner: false,
       ),
       designSize: Size(375, 812),
